@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Azure AI API configuration
 const endpoint = "https://models.inference.ai.azure.com";
-const apiKey = "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"; // GitHub PAT token
+const apiKey = "YOUR-GITHUB_PAT"; // GitHub PAT token
 
 // Create Azure AI client once instead of per request
 let client;
